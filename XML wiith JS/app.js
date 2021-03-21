@@ -14,7 +14,8 @@ function myfunction(xml) {
     var xml = xml.responseXML;
     var table = "<tr><th>USN</th><th>USN</th></tr>"
     var x = xmlDoc.getElementsByTagName("student")
-    x.forEach(element => {
-    });
+    for (i = 0; i < x.length; i++) {
+
+    }
 
 }
